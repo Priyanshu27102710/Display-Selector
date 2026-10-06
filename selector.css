@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+ 
+}
+body{
+     padding: 20px;
+}
+.box {
+  border: 2px solid black;
+}
+
+.small {
+  height: 100px;
+  width: 100px;
+}
+
+.bigger {
+  height: 200px;
+  width: 200px;
+}
+
+#id {
+  color: royalblue;
+}
+
+p{
+    color:tomato;
+}
+
+
+.div>p{
+    color: teal;
+    font-size: 20px;
+}
+
+
+div,p{
+    color: slategray;
+}
+
+.btn1,.btn2{
+    height: 30px;
+    width: 60px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(239, 88, 88);
+    border-radius: 10px;
+}
+
+
+span{
+    color: rgb(85, 112, 5);
+}
+
+.quote::first-letter{
+    color: rgb(6, 128, 176);
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+.para::first-line{
+    color: rgb(145, 5, 63);
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.selection::selection{
+    color: rgb(242, 11, 173);
+}
+
+ul li:last-child{
+    color: rgb(224, 108, 6);
+    font-size: 30px;
+}
+
+ul li:first-child{
+    color: rgb(12, 69, 240);
+    font-size: 30px;
+}
+
+ul li:nth-child(3){
+    color: rgb(205, 9, 25);
+      font-size: 40px;
+}
+
+ul li:nth-last-child(2){
+    color: rgb(13, 112, 212);
+    font-style: italic;
+}
